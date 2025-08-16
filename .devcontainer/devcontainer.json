@@ -1,0 +1,13 @@
+{
+    "tên": "my-project-devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", // Bất kỳ hình ảnh chung nào dựa trên debian.
+    "đặc trưng": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "phiên bản": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "phiên bản": "mới nhất",
+            "moby": đúng
+        }
+    }
+}
